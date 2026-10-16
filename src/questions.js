@@ -35,7 +35,21 @@ const QUESTIONS = [
       "Merges two branches",
     ],
     answer: 1,
+  },{
+    question: "Which command stages all changes for the next commit?",
+    options: ["git add .", "git commit -m", "git push", "git status"],
+    answer: 0,
   },
+  {
+    question: "What is the purpose of a .gitignore file?",
+    options: [
+      "To ignore specific files when committing",
+      "To delete files from the repository",
+      "To create a new branch",
+      "To merge branches",
+    ],
+    answer: 0,
+  }
 ];
 
 // Lets Node.js tests load this file. Browsers ignore this block.
