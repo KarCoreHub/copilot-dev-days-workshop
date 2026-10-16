@@ -35,7 +35,8 @@ const QUESTIONS = [
       "Merges two branches",
     ],
     answer: 1,
-  },{
+  },
+  {
     question: "Which command stages all changes for the next commit?",
     options: ["git add .", "git commit -m", "git push", "git status"],
     answer: 0,
@@ -49,7 +50,22 @@ const QUESTIONS = [
       "To merge branches",
     ],
     answer: 0,
-  }
+  },
+  {
+    question: "Which file path is used for GitHub Actions workflow definitions?",
+    options: ["actions/workflows/", ".github/actions/", ".github/workflows/", "workflows/.github/"],
+    answer: 2,
+  },
+  {
+    question: "Which event trigger runs a workflow when a pull request is opened?",
+    options: ["push", "schedule", "workflow_dispatch", "pull_request"],
+    answer: 3,
+  },
+  {
+    question: "Which workflow key specifies the type of runner a job uses?",
+    options: ["runs-on", "steps", "jobs", "uses"],
+    answer: 0,
+  },
 ];
 
 // Lets Node.js tests load this file. Browsers ignore this block.
